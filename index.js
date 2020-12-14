@@ -1,4 +1,6 @@
 // Your code here
  class Polygon {
-   constructor()
+   constructor(int sides){
+     thi
+   }
  }
