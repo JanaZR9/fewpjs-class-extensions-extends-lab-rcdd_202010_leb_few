@@ -1,6 +1,6 @@
 // Your code here
  class Polygon {
-   constructor(int sides){
-     thi
+   constructor(sides =[]){
+     this.sides=sides;
    }
  }
