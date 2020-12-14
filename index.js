@@ -18,7 +18,8 @@
  }
    class Triangle extends Polygon{
     get isValid(){
-      if(Triangle.perimeter)
+      if(this.sides[0]+this.sides[1]>this.sides[2] && this.sides[0]+this.sides[2]>this.sides[1] && this.sides[2]+this.sides[1]>this.sides[0] ) return true
+      else return false;
       
     }
    }
