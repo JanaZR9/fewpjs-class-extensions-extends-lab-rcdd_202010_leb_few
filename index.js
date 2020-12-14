@@ -13,5 +13,12 @@
      for(let i=0;i<sides.length;i++){
        sum+=sides[i];
      }
+     return sum;
+   }
+   
+   class Triangle extends Polygon{
+    get isValid(){
+      
+    }
    }
  }
