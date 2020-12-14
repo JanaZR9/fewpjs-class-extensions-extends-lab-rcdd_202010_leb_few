@@ -15,10 +15,11 @@
      }
      return sum;
    }
-   
+ }
    class Triangle extends Polygon{
     get isValid(){
+      if(Triangle.perimeter)
       
     }
    }
- }
+ 
