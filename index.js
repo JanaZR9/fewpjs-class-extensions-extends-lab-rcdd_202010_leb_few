@@ -10,7 +10,7 @@
    
   get perimeter(){
     let sum = 0;
-    for(let val of this.array){
+    for(let val of this.sides){
       sum+=val;
     }
     return sum;
